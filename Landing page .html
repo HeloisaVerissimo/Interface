@@ -1,0 +1,126 @@
+<html> 
+    <head> 
+<title>  exemplo1  </title>
+
+
+<link rel="stylesheet" 
+ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<style> 
+
+    body {
+        background:chocolate ;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black ;
+        border: 1px solid palevioletred;
+        padding-left: 10px;
+        padding-top: 50px;
+        text-align:left;
+    
+       
+    }
+    h1 {
+				font-family: Georgia, 'Times New Roman', Times, serif  ; 
+				color: blanchedalmond;
+				background: black;
+                text-align:center;
+			}
+           div{
+                    height: 50% auto; 
+                    width: 100%;
+                    background-color: pink;
+                    margin-top: 30px;
+                    margin-right:50px;
+                    border:0%;
+                    text-align:justify;
+                    justify-content:space-around;
+                    align-items: center;
+                    display:flex;
+                   flex-direction: row;
+                    flex-wrap: wrap;
+                    ;
+            }
+            .topnav {
+                overflow:hidden;
+                background-color:black;
+}
+.topnav a:hover {
+  background-color:blanchedalmond;
+  color: gray;
+  float:right;
+  display: block;
+  text-align:justify;
+  padding: 100px 100px;
+  text-decoration: none;
+  border-radius: 30%;
+}
+
+
+input[type=text]  {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px dashed palevioletred;
+  border-radius: 4px;
+}
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+</style>
+    </head>
+
+
+<body> 
+
+
+    <div class="topnav">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </div>
+
+    <h1> O que é uma landing page? </h1>
+    <i class="fas fa-bars"></i>
+
+    
+    <div> É conhecida como uma página de destino ou aterrisagem do usuário.</div>
+    <div>Com o intuito de coletar informações sobre o interesse do cliente  </div>
+         <br/>
+    
+    <form>
+      <p>Selecione seu curso:</p>
+      <select id="profissão" name="profissão">
+       <option value="0">Selecione uma opção </option>
+      <option value="Mkt">Marketing</option>
+      <option value="DW">Deselvolvedor Web</option>
+      <option value="TI">Tecnologia de informação </option>
+      <option value="Ou">Outros</option>
+      </select>
+    </form>
+         <br/>
+    <form>
+         <label for="fname">Digite seu email:</label>
+         <input type="text"  value=" Digite aqui..."
+        <input type="submit" value="Submit">
+  </form>
+        <br/>
+    <label for="um"> - Gostaria de receber nosso e-book </label>
+    <input type="checkbox" id="um" name=" - Gostaria de receber um e-book  " value=" A " 
+    
+    <label for="dois"> - Gostaria de receber nossas promoções por email  </label>
+    <input type="checkbox" id="dois" name=" - Gostaria de receber nossas promoções por email  " value=" B ";
+
+
+
+    </body>
+
+
+
+    </html>
